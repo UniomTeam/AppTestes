@@ -10,7 +10,7 @@ namespace AppTestes
         public App()
         {
             InitializeComponent();
-            AppCenter.Start("android=211eff38-c05d-4ce0-8e13-8d4e3af0889f;" + "uwp={Your UWP App secret here};" +
+            AppCenter.Start("android=a2dc886c-8bee-4122-9d2c-29132e4bffd7;" + "uwp={Your UWP App secret here};" +
                    "ios={Your iOS App secret here}",
                    typeof(Analytics), typeof(Crashes));
             MainPage = new AppTestesPage();
